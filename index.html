@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecondMaket</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navmenu">
+        <div class="container">
+            <div class="subnavbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/Logo.svg" class="img-fluid" alt="logo">
+                    </a>
+                </div>
+                <ul id="demo-nav-menu">
+                    <li> <a href="#">Why Alivio </a></li>
+                    <li> <a href="#">Solutions </a></li>
+                    <li> <a href="#">Community</a></li>
+                    <li> <a href="#">Pricing</a></li>
+                    <li class="demo-nav-menu-item">
+                        <button onclick="document.getElementById('id01').style.display='block'">Sign in</button>
+
+                        <!-- The Modal -->
+                        <div id="id01" class="modal">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                title="Close Modal">&times;</span>
+
+                            <!-- Modal Content -->
+                            <form class="modal-content animate" action="/action_page.php">
+                                <div class="container">
+                                    <label for="uname"><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" id="uname" name="uname" required>
+
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" id="psw" name="psw" required>
+
+                                    <button class="btn-sign" type="submit">Sign in</button>
+                                    <label>
+                                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                                    </label>
+                                </div>
+
+                                <div class="container">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                        class="cancelbtn">Cancel</button>
+                                    <span class="psw">Forgot <a href="#">password?</a></span>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                    <li> <a href="#" target="_blank" class="btn btn-primary">Start Trial</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <section class="baner">
+        <div class="container">
+            <div class="baner-content">
+                <h2 class="section-title">Be aware, Manage well.</h2>
+                <div class="section-subtitle">
+                    <p>Everyone experiences stress in different ways.</p>
+                    <p>Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                </div>
+                <a href="#" target="_blank" class=" btn btn-primary">Find Your Way</a>
+            </div>
+        </div>
+    </section>
+    <section class="how-it-works">
+        <div class="container">
+            <div class="first-part">
+                <div class="first-block">
+                    <h2 class="template-title"> How it works</h2>
+                    <div class="template-subtitle">
+                        Understand & Release
+                        the stress in 3 steps 
+                    </div>
+                </div>
+                <div class="second-block">
+                    <p class="second-block-subtitle">Alivio offers as many journals it takes, tackling different areas
+                        such
+                        as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you
+                        become
+                        aware of your emotions, and guide you in how to manage stress.</p>
+                </div>
+            </div>
+            <div class="how-it-works-row">
+                <div class="how-it-works-column column-first">
+                    <div class="how-it-works-column-title">Personalize</div>
+                    <div class="how-it-works-column-subtitle">Answer a quick survey about how you express yourself, what
+                        causes you stress, and what area would you like to work on. This way, we can fully personalize
+                        your journal!</div>
+                    <div class="how-it-works-column-img">
+                        <img src="./img/card-1.jpg" class="img-fluid" alt="card-1">
+                    </div>
+                </div>
+                <div class="how-it-works-column column-second">
+                    <div class="how-it-works-column-title">Write & Understand</div>
+                    <div class="how-it-works-column-subtitle">Write, draw, reflect, understand. Alivio will guide you
+                        through the prompts and will help you manage your stress!</div>
+                    <div class="how-it-works-column-img">
+                        <img src="./img/card-2.jpg" class="img-fluid" alt="card-2">
+                    </div>
+                </div>
+                <div class="how-it-works-column column-third">
+                    <div class="how-it-works-column-title">Alivio!</div>
+                    <div class="how-it-works-column-subtitle">Now you are aware, and have a way to manage and overcome
+                        your own stress.
+                        What are you waiting for? Alivio today!</div>
+                    <div class="how-it-works-column-img">
+                        <img src="./img/card-3.jpg" class="img-fluid" alt="card-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="success-stoty">
+        <div class="container-video">
+            <div class="video-blog">
+                <div class="video-content">
+                    <h2 class="video-title">Let's hear about <br> Kayla's success story</h2>
+                    <h3 class="block-title">See how well Alivio works in a real customer’s life.</h3>
+                    <a href="#" target="_blank" class="btn btn-primary">Let’s get started</a>
+                </div>
+                <a class="lightbox" href="https://www.youtube.com/watch?v=gfdzl8ZC-ck">
+                    <img src="./img/Video.jpg" alt="Video" class="screen">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="our-product">
+        <div class="container">
+            <div class="our-product-box">
+                <div class="img-box">
+                    <img src="./img/custom.png" class="img-fluid " alt="custom">
+                </div>
+                <div class="text-box">
+                    <h3 class="block-title">Our product</h3>
+                    <h2 class="template-subtitle">You tell us your stress,
+                        We make your diary</h2>
+                    <p class="section-subtitle">Everyone experiences it, and in different ways. <br>
+                        Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                    <a href="#" target="_blank" class=" btn btn-primary">Find Your Way</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="navigation">
+        <div class="container">
+            <ul id="demo-nav">
+                <li class="demo-nav-menu-item"> <a href="#">Alivio</a></li>
+                <li> <a href="#">Why Alivio </a></li>
+                <li> <a href="#">Solutions </a></li>
+                <li> <a href="#">Community</a></li>
+                <li> <a href="#">Pricing</a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/jQuery-v3.6.0.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/divbox.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
